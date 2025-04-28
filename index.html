@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>konverensi suhu</title>
+    <!-- CSS EXTERNAL -->
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1> website KSC</h1>
+    </header>
+ 
+    <!-- MAIN -->
+    <main> 
+         <!-- introduction -->
+    <section>
+        <h1>🌡️ Selamat Datang di Konverensi Suhu Online!</h1>
+
+        <p>Di website ini, kamu bisa dengan mudah mengubah suhu dari satu satuan ke satuan </p>
+        <ul>
+         <li>Celsius (&deg;C)</li>
+         <li>Fahrenheit (&deg;F)</li>
+         <li>Kelvin (K)</li>
+       </ul>
+       
+       <p><strong>Cara Menggunakan:</strong></p>
+       <ol>
+         <li>Masukkan angka suhu yang ingin dikonversi.</li>
+         <li>Pilih satuan asal (misalnya Celsius).</li>
+         <li>Pilih satuan tujuan (misalnya Fahrenheit).</li>
+         <li>Klik tombol "Konversi" untuk melihat hasilnya!</li>
+       </ol>
+       
+       <p>Contoh: Jika kamu masukkan (100&deg;C) dan pilih konversi ke Fahrenheit, kamu akan mendapatkan hasil (212&deg;F).</p>
+       
+       <p><strong>Kenapa Pakai Konverensi Ini?</strong></p>
+       <ul>
+         <li>🔥 Cepat dan akurat.</li>
+         <li>❄️ Tidak perlu install aplikasi.</li>
+         <li>🌍 Cocok untuk pelajar, mahasiswa, hingga profesional!</li>
+       </ul>
+         
+     </section>
+    
+       
+
+    <!-- Form konverensi suhu -->
+    <form>
+        <div>
+            <label for="konverensi-input">Celcius (&deg;C)</label>
+        </div>
+
+        <div>
+            <textarea  id="konverensi-input"></textarea>
+        </div>
+
+        <div>
+            <button>konverensi</button>
+            <button>Reset</button>
+            <button>Reverse</button>
+        </div>
+    </form>
+<br>
+    <!-- Hasil konverensi suhu -->
+     <section>
+        <div>
+            <label for="result-input">Fahrenheit (&deg;F)</label>
+        </div>
+        
+        <div>
+            <textarea  id="result-input" readonly></textarea>
+        </div>
+     </section>
+<br>
+     <!-- Penjelasan -->
+      <section>
+        <div>
+            <label for="calculate-detail">Cara kalkulasi</label>
+        </div>
+
+        <div>
+            <textarea readonly>Rumus: (&deg;C × 9/5) + 32 = &deg;F</textarea>
+
+        </div>
+      </section>
+<br>
+      <!-- Informasi -->
+       <section>
+        <header>
+            <h1>Cara konverensi dari Celcius (&deg;C) ke Fahrenheit (&deg;F)</h1>
+        </header>
+    <hr/>
+
+    <!-- Konten informasi -->
+     <article>
+        <p>Suhu <span class="formula">S</span> dalam derajat Fahrenheit(&deg;F)</p>
+
+        <!-- Formula -->
+         <div class="formula">
+            S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> × 9/5 + 32)
+        </div>
+        <div>
+            atau
+        </div>
+        <div class="formula">
+            S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> × 1,8 + 32)
+        </div>
+     </article>
+       </section>
+      </main>
+
+    <!-- Footer -->
+     <footer> 
+        <p>&copy; 2025 Anisa.All rights reserved.</p>
+     </footer>
+</body>
+</html>
